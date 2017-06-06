@@ -1,0 +1,158 @@
+
+.logo {
+	margin-top: 8px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	float: left;
+}
+.opttorpl{
+	position: absolute;
+	left: 167px;
+	top: 50px;
+	font-style: italic;
+	font-size: 15px;
+	color: grey;
+}
+.navbtn {
+	margin-top: 5px;
+	margin-left: 50px;
+	margin-right: 0px;
+}
+.zag {
+	font-size: 18px;
+	font-weight: bold;
+}
+.zag1 {
+	font-size: 15px;
+}
+.support {
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	font-size: 12px;
+	color: grey;
+
+}
+.add {
+	font-size: 18px !important;
+}
+
+.btn {
+	outline: none !important;
+}
+
+.num {
+	width: 10px;
+}
+.name {
+	width: 400px;
+}
+.weight {
+	width: 150px;
+}
+/*.price{
+	width: 150px;	
+}*/
+.btn {
+	margin-left: 10px;
+}
+table {
+	margin: 0px !important;
+} 
+.panel-body {
+	padding: 0px !important;
+}
+.fa-chevron-down {
+	font-size: 11px !important;
+}
+.prewiew {
+	position: fixed;
+	width: 210px;
+}
+.price_all {
+	font-size: 12px;
+	color: grey;
+	font-style: italic;
+	margin-left: 0px;
+}
+.price__all {
+	margin-left: -15px;
+}
+.btn_up {
+	position: fixed;
+	bottom: 50px;
+	left: 50px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 2px solid #ccc;	
+	background-color: #63A3D3;
+	z-index: 100;
+	outline: none;
+}
+.btn_up:after {
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid #ccc;
+	border-left: 2px solid #ccc;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 4px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+.request {
+	margin-top: 10px;
+	width: 308px;
+	margin-left: 15px;
+}
+.backet_full {
+	margin-bottom: 0px !important;
+}
+.opis {
+	margin-top: 0px  !important;
+}
+.input {
+	height: 24px;
+	width: 45px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius:0px;
+	border: 1px solid grey;
+	outline: none;
+}
+.pm {
+	margin-top: 0px;
+	width: 16px;
+	height: 25px;
+	outline: none;
+	margin: 0px 0px 0px 0px;
+}
+/*.p {
+	border-right: none;
+	border-left: none;
+	border-right: 1px solid grey;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+.m {
+	border-left: none;
+	border-right: none;
+	border-left: 1px solid grey;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+.plmi {
+	font-size: 16px;
+}
+.pl {
+	
+}
+.mi {
+	
+}*/

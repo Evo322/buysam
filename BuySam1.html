@@ -6,6 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="Описание сайта">
 	<title>BuySam - магазин</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon_buysam.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="BuySam.css"> 
 	<link rel="stylesheet" href="C:\Users\Evo\Downloads\start_html-master\start_html-master\_clean_html\libs\font-awesome\css\font-awesome.min.css">
@@ -334,7 +335,6 @@
 								<table class="table table-striped table-bordered table-hover table-condensed">
 									<tbody class="basket">
 										<tr id="lamb" style="display: none;">
-
 												<td>Ламбер</td>
 												<td>
 													<div>
@@ -429,10 +429,114 @@
 						</div>
 					</div>
 				</div>
-				<button class="request btn btn-success">Оформить заказ <i class="fa fa-check" aria-hidden="true"></i></button>
+				<button class="request btn btn-success" data-toggle="modal" data-target="#myModal">Оформить заказ <i class="fa fa-check" aria-hidden="true"></i></button>
 			</div>
 		</div>
-</div>
+	</div>
+	<!-- Модуль модального окна -->
+			<div id="myModal" class="modal fade" tabindex="-1">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button class="close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+							<h4 class="modal-title">Оформление заказа</h4>
+						</div>
+						<div class="modal-body modal_basket" style="padding: 0;">
+							<div class="table-responsive">
+								<table class="table table-striped table-bordered table-hover table-condensed">
+									<tbody class="basket">	
+										<tr class="foodster" id="lamb" style="display: none;">
+											<td>Ламбер</td>
+											<td>
+												<div>
+													<!-- <button class="pm m"><div class="mi plmi">-</div></button> --><input type="number" value="1" class="input"><!-- <button class="pm p"><span class="pl plmi">+</span></button> -->
+												</div>
+											</td>
+											<td class="price pr1">500р</td> 
+										</tr>
+										<tr class="foodster" id="ros" style="display: none;">
+											<td>Российский</td>
+											<td>
+												<div>
+													<!-- <button class="pm m"><span class="mi plmi">-</span></button> --><input type="number" value="1" class="input"><!-- <button class="pm p"><span class="pl plmi">+</span></button> -->
+												</div>
+											</td>
+											<td class="price pr2">500р</td>
+										</tr>
+										<tr class="foodster" id="gol" style="display: none;">
+											<td>Голландский</td>
+											<td>
+												<div>
+													<!-- <button class="pm m"><span class="mi plmi">-</span></button> --><input type="number" value="1" class="input"><!-- <button class="pm p"><span class="pl plmi">+</span></button> -->
+												</div>
+											</td>
+											<td class="price">1000р</td>
+										</tr>
+										<tr class="foodster" id="soch" style="display: none;">
+											<td>Сочинский</td>
+											<td>
+												<div>
+													<!-- <button class="pm m"><span class="mi plmi">-</span></button> --><input type="number" value="1" class="input"><!-- <button class="pm p"><span class="pl plmi">+</span></button> -->
+												</div>
+											</td>
+											<td class="price">500р</td>
+										</tr>
+										<tr class="foodster" id="dad" style="display: none;">
+										<td>Папа может</td>
+											<td>
+												<div>
+													<!-- <button class="pm m"><span class="mi plmi">-</span></button> --><input type="number" value="1" class="input"><!-- <button class="pm p"><span class="pl plmi">+</span></button> -->
+												</div>
+											</td>
+											<td class="price">650р</td>
+										</tr>
+										<tr class="foodster"  id="tavr" style="display: none;">
+											<td>Тавр</td>
+											<td>
+												<div>
+													<!-- <button class="pm m"><span class="mi plmi">-</span></button> --><input type="number" value="1" class="input"><!-- <button class="pm p"><span class="pl plmi">+</span></button> -->
+												</div>
+											</td>
+											<td class="price">770р</td>
+										</tr>
+										<tr class="foodster" id="kb" style="display: none;">
+											<td>Кубанская буренка</td>
+											<td>
+												<div>
+													<!-- <button class="pm m"><span class="mi plmi">-</span></button> --><input type="number" value="1" class="input"><!-- <button class="pm p"><span class="pl plmi">+</span></button> -->
+												</div>
+											</td>
+											<td class="price">500р</td>
+										</tr>
+										<tr class="foodster" id="km" style="display: none;">
+											<td>Кубанский молочник</td>
+											<td>
+												<div>
+													<!-- <button class="pm m"><span class="mi plmi">-</span></button> --><input type="number" value="1" class="input"><!-- <button class="pm p"><span class="pl plmi">+</span></button> -->
+												</div>
+											</td>
+											<td class="price">650р</td>
+										</tr>
+										<tr class="foodster" id="agro" style="display: none;">
+											<td>Агрокомплекс</td>
+											<td>
+												<div>
+													<!-- <button class="pm m"><span class="mi plmi">-</span></button> --><input type="number" value="1" class="input"><!-- <button class="pm p"><span class="pl plmi">+</span></button>-->
+												</div> 
+											</td>
+											<td class="price">770р</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-success" data-dismiss="modal">Готово</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
 
 
 
